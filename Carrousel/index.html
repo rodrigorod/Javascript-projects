@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden"><i class="fa fa-caret-left"></i></button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__images" src="image1.jpg"/>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__images" src="image2.jpg"/>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__images" src="image3.jpg"/>
+                </li>
+            </ul>        
+        </div>
+        <button class="carousel__button carousel__button--right"><i class="fa fa-caret-right"></i></button>
+
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
